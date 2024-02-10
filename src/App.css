@@ -1,38 +1,159 @@
-.App {
+body {
+  background: linear-gradient(-90deg, #deefdf, rgba(160, 160, 160, 0.5));
+  ;
+}
+
+#Mainimg {
+  border: 2px solid rgb(12, 1, 1);
+  height: 65vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: sticky;
+  position: relative;
+  /* padding: 2px; */
+
+
+}
+
+.maincontent {
   text-align: center;
+  /* bc yha alignment center nhi horhi esliye margin left lena pdrha hai so responsivnes ki prblm aarhi,but kaam chlrha haii */
+  margin-left: 650px;
+  padding: 44px;
+  position: absolute;
+  color: rgb(222, 233, 233);
+  top: 12%;
+  /* font-size: 44px; */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.maincontent h1{
+  font-size: 70px;
+  color: beige;
+}
+.maincontent h1:hover {
+
+  color: rgb(0, 1, 0);
+  background-color: aliceblue;
+  border-radius: 33px;
+  font-size: 70px;
+  transition: 2 ease;
+  /* padding: 2px; */
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* buttons{
+  display:flex;
+  position: absolute;
+  top:25%;
+} */
+.mainbtn {
+  margin-top: -80px;
+  border: 3px solid rgb(244, 244, 244);
+  border-radius: 22px;
+  background-color: black;
+  color: aliceblue;
+  margin: 2px;
+
+  padding: 10px 10px;
+  /* position: absolute; */
+  font-size: 20px;
+
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+#mainabout {
+  margin-top: 60px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 60px;
+  padding: 20px;
+
+
+
+
+}
+
+p {
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(89, 6, 6);
+}
+
+.container-fluid{
+  /* display: inline-block;
+  display: flex; */
+  
+}
+.multiimg {
+  /* background-color: rgb(242, 242, 242); */
+  border: 1px solid rgb(230, 226, 226);
+  border-radius: 22px;
+  display: inline-block;
+  /* display: flex; */
+  margin: 30px 20px 20px 170px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+
+  padding: 50px;
+
+  box-shadow: 0 0 10px rgba(84, 4, 4, 0.3);
+
+  /* width:200px; */
 }
 
-.App-link {
-  color: #61dafb;
+.multiimg img {
+  /* float:inline-start; */
+  /* float:left; */
+  border: 3px solid black;
+  border-radius: 22px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* .multiimg h1 {
+  /* float: inline-end;
+  float: right; */
+
+
+.multiimg h3 {
+  text-align: center;
+  color: whitesmoke;
+  padding: 4px;
+  background-color: rgb(85, 9, 9);
+  border: 3px solid black;
+  border-radius: 22px;
+}
+
+#mainfooter {
+  text-align: center;
+  text-decoration: none;
+  margin: 30px;
+  /* color: black;
+} */
+}
+
+footer a {
+  /* text-align: center; */
+  text-decoration: none;
+  text-align: center;
+  /* color: #100101; */
+  /* margin:; */
+}
+
+/* ******************** */
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  padding: 22px;
+  color: rgb(20, 1, 1);
+
+}
+
+.imgkiclass {
+  /* height:"250px";
+   width="350px" */
+  height: 250px;
+  width: 250px;
+
 }
